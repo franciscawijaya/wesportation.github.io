@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <script src="script.js" defer></script>
+    <title>WesPortation</title>
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            color: #6c0909;
+        }
+
+        .topnav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #6c0909;
+            height: 60px;
+        }
+
+        .topnav img {
+            height: 60px;
+            width: auto;
+        }
+
+        .topnav a {
+            font-family: 'Arial';
+            color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 19px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #ddd;
+            color: #6c0909;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        h3 {
+            font-size: 6rem;
+            color: #6c0909;
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #6c0909;
+            text-align: left;
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        .search-wrapper input[type="search"]::placeholder {
+            font-size: 15px;
+            color: #777;
+        }
+
+        .search-wrapper input[type="search"] {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+
+        .search-wrapper {
+            font-size: 17px;
+            padding: 2px;
+            max-width: 100%;
+            border: 2px solid #980808;
+            margin: 10px 0;
+        }
+
+        .user-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 0.25rem;
+            margin-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .card {
+            border: 1px solid black;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .card > .header {
+            margin-bottom: .25rem;
+        }
+
+        .card > .body {
+            font-size: .8rem;
+            color: #6c0909;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-top: 5px;
+        }
+
+        .event-date-time {
+            color: white; 
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 5rem !important;
+            color: #6c0909;
+            text-align: left;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 1.5rem !important;
+            color: #6c0909;
+            text-align: left;
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        .welcome-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .welcome-text {
+            margin-left: 20px;
+            flex-grow: 1;
+        }
+
+        .welcome-img {
+            width: 350px;
+            height: auto;
+        }
+
+         /* Override gray text to dark red */
+    .text-gray-600, .text-gray-800, .text-sm {
+        color: #6c0909;
+    }
+
+    a {
+        color: #6c0909; 
+    }
+
+    a:hover, a:focus {
+        color: #6c0909; 
+    }
+
+    .bg-white {
+        color: #6c0909;
+    }
+
+   
+    .event-date-time {
+        color: white; 
+    }
+   
+        footer {
+            background-color: #6c0909;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1rem;
+            margin-top: auto; 
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar with Logo and Links -->
+    <div class="topnav">
+        <img src="logoWhite.png" alt="WesPortation Logo">
+        <div>
+            <a class="active" href="index.html">Home</a>
+            <a href="https://calendar.google.com/calendar/u/0/embed?src=c_316c4a74143091cb754c41171c7cc71542ab8b66699f18f65942bc524f3e31df@group.calendar.google.com&ctz=America/New_York">Add Event</a>
+         
+            <a href="map.html">Map</a>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <div class="welcome-container">
+            <img src="image4.png" alt="WesPortation Image" class="welcome-img">
+           <div class="welcome-text">
+                <h3>Welcome to <span style="font-weight:bold;">Wes</span>Portation!</h3>
+                <h2>A web app for Wesleyan students enabling carpooling for more eco/cost-friendly Lyft/Uber rides </h2>
+                <!-- <p>Find or propose rides! Save money, meet new people, and connect with the Wesleyan community.</p> -->
+            </div>
+        </div>
+
+        <div class="search-wrapper">
+            <input type="search" id="search" placeholder="Search for an event by keyword or location..." data-search>
+        </div>
+
+       
+        <div class="user-cards" id="events-container"></div>
+
+     
+        <template id="event-template">
+            <div class="card">
+                <div class="header" data-header></div>
+                <div class="body" data-body></div>
+            </div>
+        </template>
+
+    </div> 
+      <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>Developers: Tara Pandey, Brynne Barnard-Bahn, Francisca Wijaya, and Alena Chen.</p>
+            <p>Illustrations & Logo: Brynne Barnard-Bahn</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module">
+    const API_KEY = 'AIzaSyDwz0aveLafbgDWgTu3Lp62aUuwxEa4nyI';
+    const PUBLIC_CALENDAR_ID = 'c_316c4a74143091cb754c41171c7cc71542ab8b66699f18f65942bc524f3e31df@group.calendar.google.com';
+
+let allEvents = [];
+
+// Function to fetch events from Google Calendar API
+async function loadEvents(max = 50) {
+    try {
+        const endpoint = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${PUBLIC_CALENDAR_ID}/events?maxResults=${max}&key=${API_KEY}`);
+        if (!endpoint.ok) {
+            throw new Error('Failed to fetch events');
+        }
+
+        const data = await endpoint.json();
+        console.log(data);  // Log the raw response to the console
+        const processedEvents = data.items.map(e => mapEventObject(e));
+
+        // Sort events by their start date (earliest first)
+        processedEvents.sort((a, b) => {
+        const dateA = new Date(a.start.dateTime || a.start.date);
+        const dateB = new Date(b.start.dateTime || b.start.date);
+        return dateA - dateB;  // Sort in ascending order
+        });
+
+
+        allEvents = processedEvents;
+        // Render the events
+        displayEvents(processedEvents);
+
+    } catch (error) {
+        console.error('Error fetching events:', error);
+        const eventsContainer = document.getElementById('events-container');
+        eventsContainer.innerHTML = `<p class="text-center text-3xl">🙀 Something went wrong!</p>`;
+    }
+}
+
+
+
+window.onload = () => loadEvents();
+
+function mapEventObject(event) {
+    const startDate = event.start.dateTime ? processDate(new Date(event.start.dateTime)) : processDate(new Date(`${event.start.date}T00:00:00`));
+    const endDate = event.end.dateTime ? processDate(new Date(event.end.dateTime)) : processDate(new Date(`${event.end.date}T00:00:00`));
+
+    return {
+        name: event.summary || 'No Title',
+        description: event.description || '',
+        location: event.location || 'No Location Provided',
+        start: startDate,
+        end: endDate,
+        dateRange: `${startDate.weekday}, ${startDate.time}–${endDate.time}`,
+        link: event.htmlLink || '#'
+    };
+}
+
+function processDate(date) {
+    const hour = date.getHours();
+    const minute = date.getMinutes();
+    const timeSuffix = hour < 12 ? 'AM' : 'PM';
+    const formattedHour = hour % 12 || 12;
+    const formattedMinute = minute < 10 ? `0${minute}` : minute;
+    const time = `${formattedHour}:${formattedMinute} ${timeSuffix}`;
+
+    return {
+        month: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][date.getMonth()],
+        weekday: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][date.getDay()],
+        time,
+        date: date.getDate(),
+    };
+}
+
+function createEvent(event, index) {
+    const redShades = ['red-500', 'red-600', 'red-700', 'red-800'];
+    const colorScheme = redShades[index % redShades.length];
+
+    return `
+        <div class="flex flex-col bg-${colorScheme} text-white rounded-lg shadow-lg">
+            <div class="p-4 text-center">
+                <div class="text-xl font-bold">${event.start.month}</div>
+                <div class="text-3xl font-bold">${event.start.date}</div>
+                <div class="text-sm event-date-time">${event.dateRange}</div>
+            </div>
+            <div class="flex-1 p-4 bg-white text-gray-800 rounded-b-lg">
+                <h2 class="font-bold text-2xl mb-2">${event.name}</h2>
+                <p class="text-sm text-gray-600">${event.location}</p>
+                ${event.description ? `<p class="text-sm text-gray-600 mt-2">${event.description}</p>` : ''}
+                <div class="mt-4 flex justify-center">
+                    <a href="${event.link}" class="bg-${colorScheme} text-white rounded-md px-4 py-2">View Event</a>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// Function to display events
+function displayEvents(events) {
+    const eventsContainer = document.getElementById('events-container');
+    if (events.length === 0) {
+        eventsContainer.innerHTML = `<p class="text-center text-3xl">No events available</p>`;
+    } else {
+        eventsContainer.innerHTML = events.map((event, i) => createEvent(event, i)).join('');
+    }
+}
+
+
+function handleSearch(query) {
+    const filteredEvents = allEvents.filter(event => {
+        const queryLower = query.toLowerCase();
+        return event.name.toLowerCase().includes(queryLower) ||
+               event.description.toLowerCase().includes(queryLower) ||
+               event.location.toLowerCase().includes(queryLower);
+    });
+
+    displayEvents(filteredEvents); 
+}
+
+// Add event listener to the search input field
+document.getElementById('search').addEventListener('input', (event) => {
+    handleSearch(event.target.value);
+});
+</script>
+</body>
+</html>
+

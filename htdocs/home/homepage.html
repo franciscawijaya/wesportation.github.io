@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "script.js" defer ></script>
+    <title>Homepage</title>
+    <style>
+        body {
+          font-family: Helvetica,Arial, sans-serif;
+          margin: 0px;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #6c0909;
+        }
+        
+        .topnav a {
+          font-family: 'Arial';
+          float: right;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 26.5px 16px;
+          text-decoration: none;
+          font-size: 19px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #ddd;
+          color: #6c0909;
+        }
+        .search-wrapper input[type="search"]::placeholder {
+            font-size: 15px;
+            color: #777;
+        }
+        .search-wrapper input[type="search"] {
+            padding: 10px;
+            max-width: 100%;
+        }
+
+        .search-wrapper input[type="search"] {
+            padding: 10px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+        .search-wrapper{
+          font-size: 17px;
+          padding: 2px;
+          max-width: 100%;
+          border: 2px solid #980808;
+          margin: 10px;
+        }
+        .user-cards {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 0.25rem;
+        }
+        .card{
+          border: 1px solid black;
+          padding: 15px;
+          margin: 10px;
+        }
+
+        .card > .header{
+          margin-bottom: .25rem;
+        }
+
+        .card > .body{
+          font-size: .8rem;
+          color: #777;
+        }
+        .hide{
+          display: none;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+        img {
+            width: 200px; 
+            height:auto;
+            margin-top: 5px;
+        }
+        </style>
+</head>
+<body>
+   <div class="topnav">
+    <img src="logoWhite.png"></center>
+    <a href="map.html">Map</a>
+    <a href="#calendar">Calendar</a>
+    <a href="#personal">Personal</a>
+    <a class="active" href="homepage.html">Home</a>
+   </div>
+   <center><h1>Welcome to WesPortation! </h></center>
+   <center><p>No car? Can't drive? #loser. Ride WesPortation. 
+    Save money, reduce your carbon footprint, and meet new people by inviting Wesleyan students to carpool with you. YAYY GAYY!</p></center>
+  <div class="search-wrapper">
+    <input type = "search" id = "search" placeholder = "Search for an event..."data-search>
+  </div>
+<center><p style>View upcoming events below.</p> </center>
+
+  <div class ="user-cards" data-user-cards-container>
+  </div>
+
+  <template data-user-template>
+    <div class = "card">
+      <div class = "header" data-header></div>
+      <div class = "body" data-body></div>
+    </div>
+  </template>
+
+  
+
+
+</body>
+</html>

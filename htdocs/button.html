@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google OAuth Sign-In</title>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<body>
+    <h1>Google OAuth 2.0 Sign-In</h1>
+
+    <!-- Google Sign-In button -->
+    <button id="googleSignInButton">Sign In with Google</button>
+
+    <div id="userInfo" style="display:none;">
+        <h2>User Info:</h2>
+        <p id="userName"></p>
+        <p id="userEmail"></p>
+        <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script>
+        const CLIENT_ID = '839771400858-chuku4njc30hgii6kqgr5rh5ivg4n826.apps.googleusercontent.com'; // Replace with your actual Client ID
+        const SCOPES = 'https://www.googleapis.com/auth/profile https://www.googleapis.com/auth/email'; // Google Profile and Email scope
+
+        // Load the Google API client and auth2 library
+        function gapiLoaded() {
+            gapi.load('client:auth2', initClient);
+        }
+
+        // Initialize the client with OAuth credentials
+        function initClient() {
+            gapi.auth2.init({
+                client_id: CLIENT_ID,
+                scope: SCOPES
+            }).then(function () {
+                // Check if the user is already signed in
+                const authInstance = gapi.auth2.getAuthInstance();
+                if (authInstance.isSignedIn.get()) {
+                    showUserInfo(authInstance.currentUser.get());
+                } else {
+                    document.getElementById('googleSignInButton').style.display = 'block';
+                }
+            });
+        }
+
+        // Show user info if already signed in
+        function showUserInfo(googleUser) {
+            document.getElementById('googleSignInButton').style.display = 'none';
+            document.getElementById('userInfo').style.display = 'block';
+            document.getElementById('userName').textContent = 'Name: ' + googleUser.getBasicProfile().getName();
+            document.getElementById('userEmail').textContent = 'Email: ' + googleUser.getBasicProfile().getEmail();
+        }
+
+        // Handle sign-in
+        function handleSignInClick() {
+            const authInstance = gapi.auth2.getAuthInstance();
+            authInstance.signIn().then(function (googleUser) {
+                // Send the Google ID and email to the server for further processing
+                const googleId = googleUser.getBasicProfile().getId();
+                const email = googleUser.getBasicProfile().getEmail();
+                
+                // Send data to the server-side script for login/registration handling
+                window.location.href = "callback.php?google_id=" + googleId + "&email=" + email;
+            });
+        }
+
+        // Handle sign-out
+        function handleSignOutClick() {
+            const authInstance = gapi.auth2.getAuthInstance();
+            authInstance.signOut().then(function () {
+                document.getElementById('googleSignInButton').style.display = 'block';
+                document.getElementById('userInfo').style.display = 'none';
+            });
+        }
+
+        // Add event listeners for sign-in and sign-out buttons
+        document.getElementById('googleSignInButton').addEventListener('click', handleSignInClick);
+        document.getElementById('signOutButton').addEventListener('click', handleSignOutClick);
+
+        // Load the API and auth2 libraries when the page is ready
+        window.onload = gapiLoaded;
+    </script>
+</body>
+</html>

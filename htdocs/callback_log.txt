@@ -1,0 +1,848 @@
+Array
+(
+    [code] => 4/0AeanS0ZsaISuo_EKqz5MKi_Z6stGsfQiarqKB-COs1Rec81aIFVeRBcEGf1yJrHSgcyzzA
+    [scope] => email profile openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0ZsaISuo_EKqz5MKi_Z6stGsfQiarqKB-COs1Rec81aIFVeRBcEGf1yJrHSgcyzzA
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZBmEFeG5e8ZVzR_2aGKIUNMGvcgjp_dS4aFgdJQt166EBCJGxD-0oBbHOGFlF7ugGtqHir_dvChnHwDW7xHcIlRkfSDruZtKy41X0AbmNNFVjCo_eishfesgDdvHP5Yb17BqwMsTFrVl85uwqIM1goOMb1J4QaCgYKAVkSARISFQHGX2Mi1fjE3amjXPw5NxjruMVidQ0169
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTU2MjMwMzIxNTMxNDEyODc2OTAiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiZndpamF5YUB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlVpQnJmQUZuS1VaV1dvcFE0S2hkQ2ciLCJuYW1lIjoiRnJhbmNpc2NhIFdpamF5YSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLOF9EblFYMzV5R3VfeVVHamtYc1d2X3Q0MHdOcEFMOFYwc3ZoVU5yQlBxQ3hGS2c9czk2LWMiLCJnaXZlbl9uYW1lIjoiRnJhbmNpc2NhIiwiZmFtaWx5X25hbWUiOiJXaWpheWEiLCJpYXQiOjE3MzE4NDYzNjQsImV4cCI6MTczMTg0OTk2NH0.SyUGv4CawQ4phif9ncn4mreXvXyFZ0syLMF9rojGe8alDE19zWT8QvwclevsnmXaP5ZVAmhrOjTBzf7mRtdATCcPC1M6r18Us4T2O_22otTeZg08Uph9vC0oiQcIWnnY_9KODFAGwvVJe-Xq_0Tmuvx3juGOLkH_0IYLFybl1nkTBPhi8Yy29vk911lkagWQPY4PpTUr8FP_Z3F11Gr6k5fCUKCwLSbeo0yNq2p1f3sPvo4byJE9-GD1j5o4Ns__1pKJxmPC9LTaP3AJz8uJmeB2xNJ4TsCG8jSCiUDt0UHsT1mHo_D8MNkjhn-Nct__5CHO0dOeCRvmOxAjP4fHTg
+    [created] => 1731846364
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Francisca
+            [family_name] => Wijaya
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => fwijaya@wesleyan.edu
+    [familyName] => Wijaya
+    [gender] => 
+    [givenName] => Francisca
+    [hd] => wesleyan.edu
+    [id] => 115623032153141287690
+    [link] => 
+    [locale] => 
+    [name] => Francisca Wijaya
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocK8_DnQX35yGu_yUGjkXsWv_t40wNpAL8V0svhUNrBPqCxFKg=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0YLY76oJYWUGgp2rTAfGJ8VBUVo-JNzdSwtILeCKUiCO3pLZfRrV9S1pi_3dTXV8Q
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0YLY76oJYWUGgp2rTAfGJ8VBUVo-JNzdSwtILeCKUiCO3pLZfRrV9S1pi_3dTXV8Q
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZCiPZ9FbxZssWi7snzWEJttEDMzQAeLykY6piMFZuYEb0B-_-owZPYs3T7P1XF9CiC28jYepMII_5mfkNkCmRcIMH6w127A7IxwA78gKMDZLtldrjTlN2rytHjqTCMA4FkvV3_HGw50w36rUYNamocVVTnJyF4aCgYKAfcSARISFQHGX2MiNRmUoeRXwSaPdGApUblPGA0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg5MDAxODE4NTk5MTk0MTMyMjIiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYmJhcm5hcmRiYWhuQHdlc2xleWFuLmVkdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiRmtWNnlqS3RUZDBseFViemJBZ21yQSIsIm5hbWUiOiJCcnlubmUgQmFybmFyZC1CYWhuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ozUzI0N0FLYjVWUkM4RmVKTjc2Z2dnZElVYmtsT2JtQ3ZRUnRPWFpMMUVpb0JfQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlubmUiLCJmYW1pbHlfbmFtZSI6IkJhcm5hcmQtQmFobiIsImlhdCI6MTczMTg0Njk1NiwiZXhwIjoxNzMxODUwNTU2fQ.Yw7BQ8-gmW_SDh5Kz0yyD-7plwjvjJwuFgxJBZhGPR0DF1z73QpCVtBkjQv4yIgEW0dUJFW3PmGGw-E0ptfdmBtsUeieW6Xqkv3eNOGHdcBwbyn0RqcSMFl1gCd-jIeD4I5Kxi1fGuNGgOYwfXF-wbu5UqvD7dPzoz5LQ-OFugRi-EI8dMJQ6GT-AjPfpjpcjk2tR0j7yNIGZB3DnAujehvjooTsaw55SpElOIk9muRw2vrzUoAKPXNoXZw9yGPS2yiXIO9R6CYKRSVEzsV1PpYpMfQ6tT6M3-HapLA7c1XIgoiPMdHFXWuGOfQmISntH-u4bnpgcVzf1l7OzIyjZA
+    [created] => 1731846956
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Brynne
+            [family_name] => Barnard-Bahn
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => bbarnardbahn@wesleyan.edu
+    [familyName] => Barnard-Bahn
+    [gender] => 
+    [givenName] => Brynne
+    [hd] => wesleyan.edu
+    [id] => 108900181859919413222
+    [link] => 
+    [locale] => 
+    [name] => Brynne Barnard-Bahn
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocJ3S247AKb5VRC8FeJN76gggdIUbklObmCvQRtOXZL1EioB_A=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0b8Q-AWk45nuANE2cTkxnWFVE0k6BkZ7mjywHic0D54j5z2gzCcYesN-YAJIdwX5Q
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0b8Q-AWk45nuANE2cTkxnWFVE0k6BkZ7mjywHic0D54j5z2gzCcYesN-YAJIdwX5Q
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZAuiIWrrAIo_0FXTJzckLdBG8mBBIlZ0ruE9RN30IYu0CTDRFvsbSjKJEEaSrNs9kQSABw2URY6_BFd4ZNjboGiAgfWECJruh_sWjWMIsMMyF6DvI1rwgDBJ4InhMPfg4DeVqhyKrL-oLL_e72X740SMDOs-k0aCgYKAc8SARISFQHGX2MirCtD-Y7nh-R6sBags2o7_w0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg5MDAxODE4NTk5MTk0MTMyMjIiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYmJhcm5hcmRiYWhuQHdlc2xleWFuLmVkdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiVU9UWDI0S2YyRFVLZE1GZnVqcDdvZyIsIm5hbWUiOiJCcnlubmUgQmFybmFyZC1CYWhuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ozUzI0N0FLYjVWUkM4RmVKTjc2Z2dnZElVYmtsT2JtQ3ZRUnRPWFpMMUVpb0JfQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlubmUiLCJmYW1pbHlfbmFtZSI6IkJhcm5hcmQtQmFobiIsImlhdCI6MTczMTg0NzIxOCwiZXhwIjoxNzMxODUwODE4fQ.Z9c6S9yytuT7u5-jYnZjPqoUo4oLeXyeXi8_UFn7TPph-4lDz4KUyJmULN1xU6dXP1CTttaDhdicpPDoB8DJSFux2slS3drnl7JNgb4wnbA0qd1vfdM6OdWsLkehS2k3_V2SxzBechSkhOmGqZAb6kSXHOb5NxnAi-ZZMgJOsaP1Tqcjv79QO2Z9zYc2-kEbbTDhVKRjEK1yL36EaC7ROxtZW1PluhwZCT8FQJCfCljntrc-_7N8pJRwlI1M81MCEy-RTVOaY-fLhTkvH2knvQD03lldEVWWpRt-gPk1WYhTNlb90t8DkymozYfb8qw2fS4Zev0LMddzes1bKvEPLw
+    [created] => 1731847218
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Brynne
+            [family_name] => Barnard-Bahn
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => bbarnardbahn@wesleyan.edu
+    [familyName] => Barnard-Bahn
+    [gender] => 
+    [givenName] => Brynne
+    [hd] => wesleyan.edu
+    [id] => 108900181859919413222
+    [link] => 
+    [locale] => 
+    [name] => Brynne Barnard-Bahn
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocJ3S247AKb5VRC8FeJN76gggdIUbklObmCvQRtOXZL1EioB_A=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0bxVfgMG6K2spD3nuiqX9ytWdZW192RovlW0ojFHz0Ir9LnLILcM02OxF2PMLjM0g
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0bxVfgMG6K2spD3nuiqX9ytWdZW192RovlW0ojFHz0Ir9LnLILcM02OxF2PMLjM0g
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZBQm5jYSWMNPrhWdXlxpn2xMHHvr11EF8J3e6n6MbIBGqNqL9VMsXggKtjQdZzx-3dm_l2-F1gyktpaaFLJ74OMOHW1Ouhjnr5VbJigZCgYz5XobiF2XhLZKe9QIhnrI2qLqTdLgK0Pnv7agLC63-H3IxGTqC4aCgYKAQoSARMSFQHGX2MiT0JQtfkURuWD0ZjCDp0tsg0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlFSeDlBMmRKYnF3TGZGOUd1Q3c2dkEiLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODUxMjIxLCJleHAiOjE3MzE4NTQ4MjF9.Z6rvKxh6vldK6dFa1wRga7KaOLhkwBecSghh4EGxiJyqTVZKKWW93VtPSIc-WKEyfz7_sYxhnNsjXwMapglxarDbv_eV5LQqElCSAkqNMJB7lzfmFou_JAFc6I1YdU06TG0qjTHWa23eMs0MIMDkoUP1ClMeiDvZkwAy7mN4J5Z8XirHIWGgB5_aulJ84nU7JWiHoZiQV8fXta4jz1FQCufXoDWqGoehlcyvfK7NRC9JbZtc-97nbMkMFvmjeAeZ3SlPamuhRdn0LVQ2x5TFvDWhKxMuy8bcS8CM4_MJKbV9vgA9Y_HT0iwGqjDUlpwovjrOx5ulLxro7w7aRTIiZw
+    [created] => 1731851221
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0Y8jdxUhOPX1D2zXXn6zXJtpFEL-kwk7MkYmlLHmU_WbedYGri9wazXNzao9-_9PA
+    [scope] => email profile openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0Y8jdxUhOPX1D2zXXn6zXJtpFEL-kwk7MkYmlLHmU_WbedYGri9wazXNzao9-_9PA
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZDVr3IS54Q2LkBPvI1-_8jNP-_e0pq1y9RypVDwPAQaNQ-V3qtR5pH45RCBZRa1Jwr4JbQOLdbMEQd3Cje2LXtnDMDjt6Xv0lTaHBp6_HNtpnjSkS5YHJvMT2fBHabwc1UT478MA0xhfk5Brb2FLEKZMH0k5toaCgYKAfISARISFQHGX2MiFfM4HeSSuzuEBoXWOr1YGw0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg5MDAxODE4NTk5MTk0MTMyMjIiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYmJhcm5hcmRiYWhuQHdlc2xleWFuLmVkdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiVG9mSHhYNVkzWXJGZGlZVlFaOC0wZyIsIm5hbWUiOiJCcnlubmUgQmFybmFyZC1CYWhuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ozUzI0N0FLYjVWUkM4RmVKTjc2Z2dnZElVYmtsT2JtQ3ZRUnRPWFpMMUVpb0JfQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlubmUiLCJmYW1pbHlfbmFtZSI6IkJhcm5hcmQtQmFobiIsImlhdCI6MTczMTg1MjI2MywiZXhwIjoxNzMxODU1ODYzfQ.zu5XyeseFadu7h20z0-AApVP7bx0qb2ZC95of5Yodu2aGOFHRbrd1rVp8Dsewy3-Noz4jCtWRtaHQltXbb8_BrpQnluSuQNTagHBl8PlXmxeW4H-vCTmd1XPXCXyfzGu2BSvbm5Rq7lfg4c5eCIgpP1EXZek1Bk7aQB351v5w6_5a2VN7ebPFYI9m3ybHj7wFYn-dQeqMgmG2pq_9VoSh_jfHkIOm6UGVLKA7_HC2tVUZ3pHlKAo1KqvNi3J1YVSZzg8h4a3GbiAgvSuqfF3zX1Y0lWdeItQ_2QC23_dlmXBdkaEy6d1ZaCfhCfNLqv7epAKvECmgX1uM5ArmxA9XA
+    [created] => 1731852264
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Brynne
+            [family_name] => Barnard-Bahn
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => bbarnardbahn@wesleyan.edu
+    [familyName] => Barnard-Bahn
+    [gender] => 
+    [givenName] => Brynne
+    [hd] => wesleyan.edu
+    [id] => 108900181859919413222
+    [link] => 
+    [locale] => 
+    [name] => Brynne Barnard-Bahn
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocJ3S247AKb5VRC8FeJN76gggdIUbklObmCvQRtOXZL1EioB_A=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0b8RUIv3q7jMEbt_Y6bTPZyuXPnubQ75tfWmEU2QXvMs_yrzZkbHCKhgDCGUrzhVg
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0b8RUIv3q7jMEbt_Y6bTPZyuXPnubQ75tfWmEU2QXvMs_yrzZkbHCKhgDCGUrzhVg
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZA1W9b0-cPzX1T8HIJQnRdkto_BKEoeyXsoLnW8lWA9_lDLr5zBgcQpt1FAQcQ86r75exqsKCRFFE8weOt-izAj4yYPk4kekV52y96zl1HgJcv0T7yJIW4LVUz23dVpRmcoiokhOHVbznUNJDZKIBaWPj5BOg0aCgYKAZcSARMSFQHGX2Mix9E6aisUnpyUiVpzNc__fA0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IkNiNDZFWlZFTTB3LWRNenNTTmZSN2ciLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0MDIzLCJleHAiOjE3MzE4NTc2MjN9.EMtt2CKxF0Bdhetsz5wdTb7CPOmtykWVKzoREN_tC4i40opsifxdK8opk31oHGTyp5Qknt4g6mnJ27iqnW5sB-R6RGdOj12pDiO9XBfJdIbti6IzDBDnSP1785tPzysghVGalWTcKh1WIvnOvsCmIET89u92Nyr4Jox0jLdI3c7j9ogE5rUNzvoIhOfELEKNKoVHC82BG2-3r4n_jhuZPMqTidu5Fo6UetNgzFfjj7MCm3W-GaiBt5i0m2lcIpt2DLoFodD8xDvIOlJE7r05lRw8C9ddLvyptVbTeWkjttB6VY_E3yDBFieONOxGdox2Ms359jm04jxyBIXOKgzEiA
+    [created] => 1731854023
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0ZlB-zZ_lt84kCLMaiSY2xd6pQQmFVFR8fCDn0p1r6_TKF9gE3o54U1zUJmnp82hw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0ZlB-zZ_lt84kCLMaiSY2xd6pQQmFVFR8fCDn0p1r6_TKF9gE3o54U1zUJmnp82hw
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZBgemqQV1pvVzX_onMU2dEsUn-oFLuJFfH_4j5FwtJ3vzckXA6fkLS7-PpBJ5wWz8QIj0BGlwKk6VcHw5Vhqk31AlDVjs_nRcJTDh1Jl8jFvBjYTnwuOsqDeDfrIm9dcikQSlQ2yVlLMA-Hr6dIsCi2QxJxiRgaCgYKAYkSARMSFQHGX2Mi8fb0ZBY6DCbPAyPvbFDoUg0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ijc4VUtHYm1jdHNnNGNrZHIweFBoVGciLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0MjAyLCJleHAiOjE3MzE4NTc4MDJ9.QBX7bxKyi2hrXpZ_DKCdyYnolveMnGyEM4dMdKW6whaLI2fuao4fQd8-mqWSEsc64hzI8OoYsOt800zIuryV5h2b-mEVD8gk7XzGMoJG0UBG2VKnBCeR2PRkxDl0lT2T4SxJyAjWEbadofx--vLmkkw4hDdj-pPnVDmWNOOFrhaGxEl6DtVm7Od31ce6geralhuJ3bPiF-QXPKiaVI_FO0KFdY0pue7ib-Lj80PRVZJLVqtGQ9gUGhcNWGv7lBk8gAjT2zGeSn3fu1fB_oISRFVw-Ex2HhMcu-ewyGtgxc0JE2hcrLet42wsz7-SPCNc-p7FyMa9IN0OgrjawiwmEw
+    [created] => 1731854202
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0a7UxsOSN9fT_lCHmoYhgwSGCkFtdu_mu1cjrF_6IFR0aylIxtK__aAKoJCSdWAPQ
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0a7UxsOSN9fT_lCHmoYhgwSGCkFtdu_mu1cjrF_6IFR0aylIxtK__aAKoJCSdWAPQ
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZA8jFNhLzvZ1d9pJdsCn0kitvfEmbamAsUBFxeSXDhTrBugDl9mjj5qwDuZbTBJ1KZIxZkXuOxRTPhuDo8nCsp5rBHZccdeEtOGhSwpC3u7t7KXwsU6p84jhk6hC314kijsr6Itk59Ocw1N_KKTQOYcZMpRvQsaCgYKAUsSARISFQHGX2Mibum9qjzwKJDEQ0Wi3CAzNQ0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg5MDAxODE4NTk5MTk0MTMyMjIiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYmJhcm5hcmRiYWhuQHdlc2xleWFuLmVkdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoieklQQ2pNMWc2YVZqalhXM3JGU1lGUSIsIm5hbWUiOiJCcnlubmUgQmFybmFyZC1CYWhuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ozUzI0N0FLYjVWUkM4RmVKTjc2Z2dnZElVYmtsT2JtQ3ZRUnRPWFpMMUVpb0JfQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlubmUiLCJmYW1pbHlfbmFtZSI6IkJhcm5hcmQtQmFobiIsImlhdCI6MTczMTg1NDI3MCwiZXhwIjoxNzMxODU3ODcwfQ.hrb4bdVa7-UZ3lFRhkJEySIS3Hxk3cwmfcDiVE9oKc_3JF-aCuqjZiId6FiWo5LSediHpRim74oOPlBjcKOeOnDeaaSsKg1ga2JcjgQ6d23dw6I-DIhLiF2PLV7h0NfZEF4r0KeKeN2IJ_5Q5BL3AwMC8x8XTEMMlkeXWecpsQrDZ9EVYHct4s3mQnNQg6ktdrpfgml5lDabO9fAvwJ2mEm6JH7_aZERYCP9bktIdUCHsb3BAfrCBRfAoYtlzClqJCTzyzFuQbNAfr1G4tTeWWqO-cT4d741Vhz3I0yZg9yonthrHJfOL7kUATGyuoCsysV1ecwrEHhxkXlo0J7T8g
+    [created] => 1731854270
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Brynne
+            [family_name] => Barnard-Bahn
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => bbarnardbahn@wesleyan.edu
+    [familyName] => Barnard-Bahn
+    [gender] => 
+    [givenName] => Brynne
+    [hd] => wesleyan.edu
+    [id] => 108900181859919413222
+    [link] => 
+    [locale] => 
+    [name] => Brynne Barnard-Bahn
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocJ3S247AKb5VRC8FeJN76gggdIUbklObmCvQRtOXZL1EioB_A=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0at0euqIZL9zY5MaylOLub8bF3KApQTsKEOzogirEvnfpP1Z5ZdjSYO2168hOWUgg
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0at0euqIZL9zY5MaylOLub8bF3KApQTsKEOzogirEvnfpP1Z5ZdjSYO2168hOWUgg
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZAKbJl-Uhx0dlP-qajTRq9069owY00S-mmDvc8NLSqkp-H-79rMowuFNey7ZebDT8m4IA-Dm7Kra7f5JLMABHpHb3Wu0vtFrXTGqc_-ym-xljmDGdD3x4IAmPcXVi76NhqM-SSCOKKSWWXiuoavGpSkZ3b4VgaCgYKAbYSARISFQHGX2MinkDpJgW9dS21ADjDJzHQmQ0169
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTA2OTEzMzY1OTg1NjEwOTM4MDAiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoidHBhbmRleUB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ik14WDVvNlRFQlJ4el9udzI1bWNwZ0EiLCJuYW1lIjoiVGFyYSBQYW5kZXkiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSUFfWUtEcE5WWEkwR1VDZDRjRFliazk4UTlGeTdoT2xuLVF3NWdvVXM0anZaYXRnPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IlRhcmEiLCJmYW1pbHlfbmFtZSI6IlBhbmRleSIsImlhdCI6MTczMTg1NDUwMiwiZXhwIjoxNzMxODU4MTAyfQ.y5JIpxl5yKh9e62MvMPBhj8XzkPBhF2s2toMBgoBvSPf5wVxOyXhaHBpVKmgAAAWWs1KPHfNUJ_B9PuAgUs7QNGwWJKdhX4kvKWm8iR_mD4X_edMPKdZ_bdP_b5h_LT1zKuS0vziT2CRPTfgcjNAc0S07FD5CAxQBf4BZL7rtE1mCuEmHf0P4F5vo-g52-17DxUQWrC44YZpzNBh0FAUe_mb48IA6MJgcLjje1HassG87vQIJfljwG5RFgVO0K5gAoOtFGTjqXy9z0EMwIpkLuKHcyM_rUBoZWZ8TJnHanFmEoeH5Ln_A0QGsq_RpXfrLCfrmd2FcINmfGaYIjKFWA
+    [created] => 1731854502
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Tara
+            [family_name] => Pandey
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => tpandey@wesleyan.edu
+    [familyName] => Pandey
+    [gender] => 
+    [givenName] => Tara
+    [hd] => wesleyan.edu
+    [id] => 110691336598561093800
+    [link] => 
+    [locale] => 
+    [name] => Tara Pandey
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocIA_YKDpNVXI0GUCd4cDYbk98Q9Fy7hOln-Qw5goUs4jvZatg=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0beNgnPSkYDJtVk2vS5psXU7PXb3B3em-RlGaRvheKBBJJ0xK3Fijd9mSlWUxx7iQ
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0beNgnPSkYDJtVk2vS5psXU7PXb3B3em-RlGaRvheKBBJJ0xK3Fijd9mSlWUxx7iQ
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZB7k_bwyodlAhYk28OIJ4UUi_cCiQD-H_GoUxYT4WtoEf7YdNb0N0fhED23WOayLyBknrCzeqfvnLpCv5BiPBr2vK1GN1M21xhConCs0_bf2ndbg3DCDzAY38ukEfPJpI8nrjkDQapm45Q9EI4iPx-ndAnjqM0aCgYKAT8SARMSFQHGX2MiNGDt4l60LYt9qwbOt-YsTw0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IjVwSjlpOE9hMGhGOUc5Tno1MUF6aGciLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0NTI2LCJleHAiOjE3MzE4NTgxMjZ9.LDs5eXIaorsv96UNyZR2WsMUbeDqPwsEnE1m_gypEvIGbtk_9P4pDfFwHXstxShyOYAgeCH0ynI-N0G0OcDbTgFnNQeTey2JLJwlEnski0azeh_cmAPcwDQj6jQkfo4QMBfXZJKjuNHXJ4PPRlEzc1hiS48EarlTLx4DyYUK7l9Hc1nAMTR1u7k78lvrYEnrQB1gomMaGLDuCurCpjjq7e-bqfzOj39mEEE8V6v_V6KQLbVerf8_pPUO_-CZA_qNem_Ho8oqtQYrJ3nNc1LgmT0301z9Q0e3OVin9f0cvOK5BOzsDARSc7Ts18XirykuI5qpAqLTzGrNQUEiKxqnag
+    [created] => 1731854526
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0Z0GeEuQeMxQOy47ONdmBeUWDd5L4TYZW7ailvUtt0XmgDBW6xIRponmvUAJdsCIg
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0Z0GeEuQeMxQOy47ONdmBeUWDd5L4TYZW7ailvUtt0XmgDBW6xIRponmvUAJdsCIg
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZDFvptPYaNScC41Lsxl1GP2DZI5MAEGHnmS9EU62fGAGpbhrQuEHk3QyWjsLVKsEPV731VftSdrd_n5Qy714VVvTypIZ1EEKzOyygcN8keaT3fOKg0YKpqfqs9kupSthY0mEOFrjUUVC0jcmx_EX7rWaesfM6gaCgYKATASARMSFQHGX2Mi5-Gmthuwu-1g87u1WH8YzQ0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InJjbWhiQjJwbjlxR0ZkNFpKeU5vNVEiLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0NjUxLCJleHAiOjE3MzE4NTgyNTF9.NkM3usyuyb685HPMGB3K3TIMxTNxWkth8zcaBm4H6iAzJO5iAvf2kkw1osjzvgUQjWhQPsn3CNVQeUTvyULVddXtvlFTq6XpTNhpAYYUDRZ1VaDQXfsSCcvdAXdtfqbeHI1tf0nLOUzi71hg7RYG49e9eMF-zh_aF-V2la-6eCAa7FtkVR0YARPwuk-Upb35f8sUKg_BL2bVwmT72QhaIQGDAprcNnSx4MTH64GHmNFjf28JZaPC0sWdoHGWUY1ekez3ypdlpnR52pB5wAH-L3qhoJRI6ewe9b1pDCITtbEBeuKtkjv0zJYKugT8A12IP22rABjLZt33IVlv--lU3w
+    [created] => 1731854651
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0aYf2IMsSaJq4dfjBoKwPZTLTEYT5Bf9MFx6xI7qXW2I2Xrl5MubAh5WKsshGFi_Q
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0aYf2IMsSaJq4dfjBoKwPZTLTEYT5Bf9MFx6xI7qXW2I2Xrl5MubAh5WKsshGFi_Q
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZBJqcE_X2UX4854x4l0kfGtk1qBILr-j_PUU05E29yeo-uLajifNeJrIGpfroVodJP4hA4db7a7RcMib_Q55P58m5hYGaBLPkyyGTnvAzi3mHhpiQZZXCi0fzGIive3ABFJpluSZbyl9ld8Drpf1oZuP8bmevIaCgYKAZISARISFQHGX2Miy03h38UVgzA12tl-_Ru6Lg0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDg5MDAxODE4NTk5MTk0MTMyMjIiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYmJhcm5hcmRiYWhuQHdlc2xleWFuLmVkdSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiQzdubmtDc19GRExWcFFXaWh5ekV6ZyIsIm5hbWUiOiJCcnlubmUgQmFybmFyZC1CYWhuIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0ozUzI0N0FLYjVWUkM4RmVKTjc2Z2dnZElVYmtsT2JtQ3ZRUnRPWFpMMUVpb0JfQT1zOTYtYyIsImdpdmVuX25hbWUiOiJCcnlubmUiLCJmYW1pbHlfbmFtZSI6IkJhcm5hcmQtQmFobiIsImlhdCI6MTczMTg1NDcxMiwiZXhwIjoxNzMxODU4MzEyfQ.sBC_vWcmkSHb-lTDmhd5F2SRsRYGphjrg3FfmxdysT1eIWwaLysvKtKtUF7-nITCnDeVuK1Env5mx0JHAv_VQYLPpRVpXnEcgItTTR-AMY2QS2xzST7oUM_Iw5V1a7D9o4qZrbq6jjXNbTOcPMPTeSCpTxEGETJayXYFuhDSW0rQOPqLE9HSxmhbpVBclAkU7UueE4Hz0tIQ97TEIQX13EJx_zrwA6h1hcvtMd1kPjIZ3W0RzcUccZIPlSrgyIIGNACJXPgQOavE15lkq0p1iH1rSLBZ_DcvtLSuXwHPqUC9qOLFfew4CX1PUDErF0B_IYYImwU3rBqf-a1sE6ug0w
+    [created] => 1731854712
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Brynne
+            [family_name] => Barnard-Bahn
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => bbarnardbahn@wesleyan.edu
+    [familyName] => Barnard-Bahn
+    [gender] => 
+    [givenName] => Brynne
+    [hd] => wesleyan.edu
+    [id] => 108900181859919413222
+    [link] => 
+    [locale] => 
+    [name] => Brynne Barnard-Bahn
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocJ3S247AKb5VRC8FeJN76gggdIUbklObmCvQRtOXZL1EioB_A=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0YSPGg5xA8-_fRxZWdeOwP5hlK8CsFC2Cj_izpOWhWupzU0efP-O_YAVombgrZ6uQ
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0YSPGg5xA8-_fRxZWdeOwP5hlK8CsFC2Cj_izpOWhWupzU0efP-O_YAVombgrZ6uQ
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZDsrUFa_3puAD7pnQWeoWVFqp3XCQADLb2lWDBq0IsVpAjnz4vKAhtXwdWRBSvRGbu7l31YdRryFH4nB2JybxHQuH-AvU_8Gw60shnXKL66SuhYziSoZRTVEeCz1KEstZmC8KUo918a7a_4cg4Zy2WjkFyTqF4aCgYKAbMSARMSFQHGX2MixSAidx9QBA-9aBqc0P1Jww0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6ImdYOGduNEpiNjVNUlRRRE1uRkdGaVEiLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0NzUyLCJleHAiOjE3MzE4NTgzNTJ9.SKRyGKMDwNnm9npvTLwKeq7SWBv159UiOsswAFyxfO0w7hI1QYX25WLTF2wwFt-l8-ctxNBuPlowPpe36-mP3STc_BuuAFtg4NcbAtbMkFBHfSrVbRs4NR6yq0RshGBtloS010DPw91fDqgPGYo6SVDpYUeBJczUNMqQi9jNr1gIVR0PCsDzKpto04gvtakbhTiggQZaXTPvlRP5ZrIfZNYHRC5zFBa-L6rwELBK8iW1uMgJ7vRDEcoiJAhxObuHreRx6avSmcHZMJ4sdM4v1kAircZnJMOjL6FQfRoNKIXYECRpilth7ckL8bOm6UTf_oItKhkbK5m-Ux8bTt9VjQ
+    [created] => 1731854752
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0awzwTsv8lCSHODozTzw9oxaeOaovhZfnr9GxcXfMOuMvA6KoeLWoLyoWQ7ndQMug
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile openid https://www.googleapis.com/auth/userinfo.email
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0awzwTsv8lCSHODozTzw9oxaeOaovhZfnr9GxcXfMOuMvA6KoeLWoLyoWQ7ndQMug
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZBRyWj_5r71tyjIYEA8XMG6crpec7HTczWfRypguTcJdrJOHsM3lfzRmS3qieM_TvMk3nhvU18Be4e_Uex2DRHMId3Db-DylDezWqcXTcd-N4klmL3WP6_bi3V3ukvvzozIM6Q1eL6fjiVMmFv413dEBOiYEaAaCgYKAVoSARMSFQHGX2MiiTh9cSsFvUOhzrV3tOIP9A0170
+    [expires_in] => 3599
+    [scope] => https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InY5T0R5NkFrU1RqLUx6M0dnZDRuaFEiLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU0ODg4LCJleHAiOjE3MzE4NTg0ODh9.xWsBtCrOWIsuyNQRCgJYkqUi4b_F5XAPgmwwhSK7NjPKM7h5UZ042TWfwW2J4pPk2v7R68lK9Ro1T34ecd_h3cqEJi8lp98mB7ZeqjUwt1k_bW48eQyp6g0KVDBWtXBTgkzUpTHmDZxRKRWZJRdjwWCfT8p6nTXadZqAax2lVPT9Fml09An2LMG7xV3UCxMO041m_cXJBO0D-1d-pWVDmCZXv6IKCw_1JXqttwnhazVsgYQlLGdHyP6PdqUYNYpq9Ieh6OJkB30q-ObzoMgwUrjY3usR-1co6Etki-2U4FiNZgPlwKnJ1ECU6MSqfnNXilh-ujSCe8u3UhOcjHZNug
+    [created] => 1731854888
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0bdzLHODln1gm7DhmcZKAsxCm4Lz-FotHj7qcO0aN01Tfzj_RFzDWDVWoSaG2UjWw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0bdzLHODln1gm7DhmcZKAsxCm4Lz-FotHj7qcO0aN01Tfzj_RFzDWDVWoSaG2UjWw
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZCcxzVZKl-hQpmGkBrgPkhUJEfi40rbqe_-a-krEmeXFwx5cMtW91gHpQyoYt35sIUXXyQplHRIIfhrGJiBzYkMqjtt0HvF-RMaXBXLXpY6qMGIP6GdZRPaC9p4tRwSFTr5osHCXhw93DJK90cdDo820a5pE7oaCgYKAZYSARMSFQHGX2MiuKOaMrwiRJEQ8YUT2W3pVQ0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlFHaUJoeWdidlhGLVlyckRlcE5UVEEiLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU1MjQwLCJleHAiOjE3MzE4NTg4NDB9.uStwQZGAYqgLi2EiAI_EQPHObqo6WF50f8Vsr9QBbWeJn2DRYYb9DFvbTWhBEmV3DuSiPKb-y8AW1X9bufKhxPrgdVsFmYAzccX7IlOZ_LL_fUiRwwg5YXa1J31-2GJMyqD6tN35IDJUWEFJTpUp2X0w29ew6lerEqXJkrW9Xja_jxU9yhACQ0tgb1FcKrvqQ_4eweOGr4EDTzFxfLL4ZpIjqegkrs8_8bLFSvyHQ-HTiVZO4xZiO5dvc3LxHkjF1CatLavE-1OqnQekqH2Gfh0gQwReZnq1-msaR93F-PCouBoyyre5oOBKcr3ZSDQDZlX6d6jNLnP3Ro-ODOyx7Q
+    [created] => 1731855240
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html
+Array
+(
+    [code] => 4/0AeanS0b5sS4ZpaZH6rOCBBZFola3xQF0l9lLw4t1P6cdRIqCT4UGfLGrOQi-Ufetuijv7g
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid
+    [authuser] => 0
+    [hd] => wesleyan.edu
+    [prompt] => none
+)
+Authorization Code: 4/0AeanS0b5sS4ZpaZH6rOCBBZFola3xQF0l9lLw4t1P6cdRIqCT4UGfLGrOQi-Ufetuijv7g
+Token Response: Array
+(
+    [access_token] => ya29.a0AeDClZDYwokii4eaC0g_vorqFL6woLjvLaOO4BckAeuyE2k2H-OQk7r0DIRImzvCAs0bNpYX_i3-Q7SDHAqcV-aTb-GhS1u2jyCUjlpeuf3FbLxRgRiknqjcFXcomqZujVM9XCwJlzzP-kPgDmC5K68rHDoLNrdKeSAaCgYKAe4SARMSFQHGX2MiOZSlKgKvdSVrZWoeDJkXPQ0170
+    [expires_in] => 3599
+    [scope] => openid https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile
+    [token_type] => Bearer
+    [id_token] => eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI4Mzk3NzE0MDA4NTgtY2h1a3U0bmpjMzBoZ2lpNmtxZ3I1cmg1aXZnNG44MjYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTE1NTc3NjY0NjM1MTE2MDQ0MjgiLCJoZCI6Indlc2xleWFuLmVkdSIsImVtYWlsIjoiYWNoZW4wNEB3ZXNsZXlhbi5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IjctWHRVejRiVXk4VkpwTjZvYVNTYWciLCJuYW1lIjoiQWxlbmEgQ2hlbiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NLcFRWSkxFaHJuM2t2OENhVXdaZHJiZldKbHNZUlBJTFI3QzgyV1Jhel9KZ0p0PXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkFsZW5hIiwiZmFtaWx5X25hbWUiOiJDaGVuIiwiaWF0IjoxNzMxODU1NDU2LCJleHAiOjE3MzE4NTkwNTZ9.faJfpeR773sQ3_lGqkOfKXE6YeYi0nCFA-GAE9sPhuvq-PftuhXCtS1F9wuAxPrcZcnzNIFv6AtUKWcCQIpRN6gVOyhv1SLk9E-YGSB9PJk6uYqhcIm6SQQcjcmCjn7ZR72oWb86B9cs4aW2J7jdRs4evCeJqbQidwQ7IUT1iV1GEVJStcidhw_YgSUKIDVKG1b6BulNtMl5Sx24ruykFiyPXdXskrAQ379lJyoCMX1Z-LcTPr4pkyiy6OxWpG5CMq1QGKYBYu6MgDPDFqvW7fthzfl8PeLRuJdBhwRAtQvNMuwCgH9hdtUF4uf4DKGC7e8MkhCBDdLU8DD7Hr12sA
+    [created] => 1731855456
+)
+
+User Data: Google\Service\Oauth2\Userinfo Object
+(
+    [internal_gapi_mappings:protected] => Array
+        (
+            [familyName] => family_name
+            [givenName] => given_name
+            [verifiedEmail] => verified_email
+        )
+
+    [modelData:protected] => Array
+        (
+            [verified_email] => 1
+            [given_name] => Alena
+            [family_name] => Chen
+        )
+
+    [processed:protected] => Array
+        (
+        )
+
+    [email] => achen04@wesleyan.edu
+    [familyName] => Chen
+    [gender] => 
+    [givenName] => Alena
+    [hd] => wesleyan.edu
+    [id] => 111557766463511604428
+    [link] => 
+    [locale] => 
+    [name] => Alena Chen
+    [picture] => https://lh3.googleusercontent.com/a/ACg8ocKpTVJLEhrn3kv8CaUwZdrbfWJlsYRPILR7C82WRaz_JgJt=s96-c
+    [verifiedEmail] => 1
+)
+
+Redirecting to home/index.html

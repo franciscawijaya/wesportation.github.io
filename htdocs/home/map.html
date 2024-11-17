@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title> WesPortation </title>
+
+    <!-- Leaflet CSS for Map Styling -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        #map {
+            height: 700px;
+            width: 100%;
+        }
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #6c0909;
+        }
+        
+        .topnav a {
+            font-family: 'Arial';
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 26.5px 16px;
+            text-decoration: none;
+            font-size: 19px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: #ddd;
+            color: #6c0909;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="topnav">
+        <img src="logoWhite.png">
+        <a class="active" href="map.html">Map</a>
+        <a href="https://calendar.google.com/calendar/u/0/embed?src=c_316c4a74143091cb754c41171c7cc71542ab8b66699f18f65942bc524f3e31df@group.calendar.google.com&ctz=America/New_York">Add Event</a>
+        <a href="index.html">Home</a>
+    </div>
+
+    <!-- Map Title -->
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Script for Leaflet Map and Event Handling -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Initialize the map centered on a default location
+        const map = L.map('map').setView([41.5568, -72.6568], 13); // Adjust to your default location
+
+        // Add OpenStreetMap tile layer to the map
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Your OpenCage API key for geocoding
+        const apiKey = '0cdb5c3c091440bb8dbcd41eca30c63a';  // Your OpenCage API key
+
+        // Function to geocode locations using OpenCage API
+        async function geocodeLocation(location) {
+            const geocodeUrl = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(location)}&key=${apiKey}`;
+            try {
+                const response = await fetch(geocodeUrl);
+                const data = await response.json();
+                if (data.results.length > 0) {
+                    return data.results[0].geometry;
+                } else {
+                    console.log('Location not found:', location);
+                    return null;
+                }
+            } catch (error) {
+                console.error('Error geocoding location:', error);
+                return null;
+            }
+        }
+
+        // Function to load events from the Google Calendar API
+        async function loadEvents() {
+            const calendarId = 'c_316c4a74143091cb754c41171c7cc71542ab8b66699f18f65942bc524f3e31df@group.calendar.google.com';
+            const apiKey = 'AIzaSyDwz0aveLafbgDWgTu3Lp62aUuwxEa4nyI';
+            const maxResults = 50;  // Adjust based on how many events you want to fetch
+
+            try {
+                // Fetch events from Google Calendar API
+                const response = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${calendarId}/events?maxResults=${maxResults}&key=${apiKey}`);
+                const data = await response.json();
+                
+                // Process each event and geocode the location
+                const events = data.items;
+                for (let event of events) {
+                    const location = event.location;
+                    if (location) {
+                        // Geocode the event location
+                        const coordinates = await geocodeLocation(location);
+                        if (coordinates) {
+                            // Place a marker on the map with the event location
+                            L.marker([coordinates.lat, coordinates.lng])
+                                .addTo(map)
+                                .bindPopup(`<b>${event.summary}</b><br>${location}<br>${event.start.dateTime}`)
+                                .openPopup();
+                        }
+                    }
+                }
+            } catch (error) {
+                console.error('Error loading events:', error);
+            }
+        }
+
+        // Load the events when the page is loaded
+        loadEvents();
+    </script>
+</body>
+</html>
