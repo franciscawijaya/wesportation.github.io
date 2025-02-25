@@ -36,4 +36,4 @@ Expanding the platform's capabilities to include additional transportation optio
 Introducing rating and feedback mechanisms to improve user trust and reliability within the platform.
 Continuing to refine and improve the interface to make it even more intuitive and user-friendly. By continuously iterating on WesPortation, we aim to provide a sustainable, community-oriented transportation solution that makes student life in Middletown more convenient, affordable, and connected.
 
-To view our website, go to wesportation.co.
+To view our website, go to wesportation.co or view our DevPost at https://devpost.com/software/wesportation
