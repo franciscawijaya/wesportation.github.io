@@ -1,4 +1,3 @@
-Screenshots:
 <img width="1470" height="837" alt="image" src="https://github.com/user-attachments/assets/2c1e32b9-1e6f-4de5-ada3-f78cd94e8ea4" />
 
 
