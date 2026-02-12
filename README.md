@@ -1,3 +1,7 @@
+Screenshots:
+<img width="1470" height="837" alt="image" src="https://github.com/user-attachments/assets/2c1e32b9-1e6f-4de5-ada3-f78cd94e8ea4" />
+
+
 Inspiration
 
 Studying in Middletown, Connecticut can be tough sometimes. The town's remote location, away from bustling city centers, often leaves students grappling with limited mobility options. Many depend on unreliable public transportation services, friends with vehicles, or even walking long distances to reach essential places. When these options are exhausted, students frequently turn to ride-hailing services such as Uber and Lyft. However, these one-person rides, while convenient, can quickly accumulate financial burdens, making them cost-prohibitive for many students. Moreover, frequent solo rides contribute to higher carbon emissions, negatively impacting the environment and underscoring the need for a sustainable, community-centered alternative.
